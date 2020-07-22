@@ -6,3 +6,4 @@
 -Ações 
 -Derivativos
 -Moedas
+-Outros
