@@ -8,11 +8,6 @@ variant: default
   The Latest Trump's Tweets
 ============================================================================
 
-Susan Li 
-#https://github.com/susanli2016/Data-Analysis-with-R/blob/master/Donald-Trump-Tweets.Rmd
-
-April 3, 2017
-
 ```{r global_options, include=FALSE}
 knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
 ```
@@ -254,9 +249,10 @@ ggplot(aes(x = as.Date(timestamp), y = value, group = variable), data = Tweets_t
 The positive sentiment scores are always higher than the negative sentiment scores. And the negative sentiment experienced a significant drop recently,the positive sentiment increased to the highlest point. However, the simple text mining process conducted in this post does not make this conclusion. A more sophisticated [text analysis of Trump's tweets](http://varianceexplained.org/r/trump-tweets/) by [David Robinson](http://varianceexplained.org/r/trump-tweets/) found that Trump writes only the angrier half from Android, and another postive half from his staff using iPhone. 
 
 ## The end
-
-I really enjoyed working on Trump Tweets analysis. Learning about text mining and social network analysis is very rewarding. Thanks to [Julia Silge](http://juliasilge.com/) and [Yanchang Zhao](http://www.rdatamining.com/)'s tutorials to make it possible. 
-                                                                                                                                                                                                                                                                                                                                   © 2019 GitHub, Inc.
+Credits: Susan Li 
+#https://github.com/susanli2016/Data-Analysis-with-R/blob/master/Donald-Trump-Tweets.Rmd
+Tutoriais de [Julia Silge] (http://juliasilge.com/) e [Yanchang Zhao] (http://www.rdatamining.com/) 
+                                                                                                                                                                                                                                                                                                                                   ï¿½ 2019 GitHub, Inc.
                                                                                                                                                                                                                                                                                                                                    Terms
                                                                                                                                                                                                                                                                                                                                    Privacy
                                                                                                                                                                                                                                                                                                                                    Security
