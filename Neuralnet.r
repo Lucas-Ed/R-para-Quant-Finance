@@ -1,4 +1,4 @@
-#Prof. Fernando Amaral
+
 library(neuralnet)
 library(quantmod)
 library(DMwR)
